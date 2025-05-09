@@ -1,4 +1,4 @@
-# 🎓 Projeto de Banco de Dados para Universidade
+# 🎓 Projeto de Banco de Dados para ....
 
 ### 👥 Integrantes:
 - *Beatriz Cristina Emerenciano* — RA: 22.222.041-0  
