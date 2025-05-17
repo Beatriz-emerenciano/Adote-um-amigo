@@ -18,27 +18,6 @@ Este projeto tem como objetivo implementar um sistema de banco de dados relacion
 
 - Geração de relatórios gerenciais, como número de animais por abrigo e tempo médio até adoção
 
-
-# 🎓 Projeto de Banco de Dados para um Abrigo
-
-### 👥 Integrantes:
-- *Beatriz Cristina Emerenciano* — RA: 22.222.041-0  
-- *Camila Laurindo Reis* — RA: 22.222.037-8  
-- *João Guilherme Rogante* — RA: 22.223.081-5
-
-## 📌 Descrição do Projeto
-Este projeto tem como objetivo implementar um sistema de banco de dados relacional para gerenciar abrigos e o fluxo de doações e adoções de animais, garantindo o registro completo de cada entidade e relacionamento envolvido:
-
-- Cadastro de abrigos, voluntários, veterinários, doadores e adotantes
-
-- Registro de animais com dados de nascimento, peso e espécie
-
-- Controle de doações (origem) e adoções (destino), incluindo datas e condição física
-
-- Atribuição de voluntários aos abrigos e de veterinários aos atendimentos
-
-- Geração de relatórios gerenciais, como número de animais por abrigo e tempo médio até adoção
-
 ## ⚙️ Tutorial de Execução do Projeto
 
 ### 🔹 Etapa 1: Criação do Banco de Dados e das Tabelas
