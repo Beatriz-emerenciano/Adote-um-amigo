@@ -102,6 +102,8 @@ abrigo, voluntario, veterinario, doador, adotante, animal, além dos relacioname
 
 ## 🗂️ Modelagem de Dados (MER e MR)
 
+O projeto inclui a modelagem conceitual e relacional do sistema, com base nas seguintes entidades e relacionamentos:
+
 *Modelo ME:*
 
 ![image](https://github.com/user-attachments/assets/356b45b7-dea5-4888-ae28-38f3e42b53b0)
@@ -109,11 +111,21 @@ abrigo, voluntario, veterinario, doador, adotante, animal, além dos relacioname
 
 ### Entidades Principais:
 
- 
+- Abrigo: Responsável por abrigar animais e contar com o trabalho de voluntários.
+
+- Voluntário: Trabalha em abrigos auxiliando nos cuidados dos animais.
+
+- Veterinário: Cuida de um ou mais animais abrigados, oferecendo assistência médica.
+
+- Animal: Pode ser doado por um doador, adotado por um adotante, abrigado em um abrigo e cuidado por um veterinário.
+
+- Doador: Pessoa que doa animais ao abrigo, informando sua condição no momento da doação.
+
+- Adotante: Pessoa que adota animais previamente doados e abrigados.
 
 ### Relacionamentos:
 
-- 
+- cuida, abriga, tem, trabalha, adota, doa, adotado, doado.
 
 *Modelo-MER:*
 ![{2D8E0269-3451-495F-9912-4F033B946EC7}](https://github.com/user-attachments/assets/ca20d14d-14c3-46de-b6a3-89e70d5dc207)
@@ -127,6 +139,7 @@ abrigo, voluntario, veterinario, doador, adotante, animal, além dos relacioname
 | *PostgreSQL*    | Sistema gerenciador do banco de dados         |
 | *pgAdmin 4*     | Interface gráfica para criação e execução de queries |
 | *Python + Faker*| Geração automatizada de dados fictícios       |
+
 
 
 
