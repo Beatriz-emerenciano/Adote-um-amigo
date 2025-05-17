@@ -6,7 +6,7 @@
 - *João Guilherme Rogante* — RA: 22.223.081-5
 
 ## 📌 Descrição do Projeto
-Este projeto tem como objetivo implementar um sistema de banco de dados relacional para gerenciar abrigos e o fluxo de doações e adoções de animais, garantindo o registro completo de cada entidade e relacionamento envolvido.
+Este projeto tem como objetivo implementar um sistema de banco de dados relacional para gerenciar abrigos e o fluxo de doações e adoções de animais, garantindo o registro completo de cada entidade e relacionamento envolvido:
 
 - Cadastro de abrigos, voluntários, veterinários, doadores e adotantes
 
