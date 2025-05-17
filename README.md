@@ -19,15 +19,73 @@ Este projeto tem como objetivo implementar um sistema de banco de dados relacion
 - Geração de relatórios gerenciais, como número de animais por abrigo e tempo médio até adoção
 
 
+# 🎓 Projeto de Banco de Dados para um Abrigo
+
+### 👥 Integrantes:
+- *Beatriz Cristina Emerenciano* — RA: 22.222.041-0  
+- *Camila Laurindo Reis* — RA: 22.222.037-8  
+- *João Guilherme Rogante* — RA: 22.223.081-5
+
+## 📌 Descrição do Projeto
+Este projeto tem como objetivo implementar um sistema de banco de dados relacional para gerenciar abrigos e o fluxo de doações e adoções de animais, garantindo o registro completo de cada entidade e relacionamento envolvido:
+
+- Cadastro de abrigos, voluntários, veterinários, doadores e adotantes
+
+- Registro de animais com dados de nascimento, peso e espécie
+
+- Controle de doações (origem) e adoções (destino), incluindo datas e condição física
+
+- Atribuição de voluntários aos abrigos e de veterinários aos atendimentos
+
+- Geração de relatórios gerenciais, como número de animais por abrigo e tempo médio até adoção
+
 ## ⚙️ Tutorial de Execução do Projeto
 
-A execução do projeto foi realizada em *quatro etapas principais, utilizando **PostgreSQL* no *pgAdmin 4* e *Python* com a biblioteca *Faker* para geração de dados.
-
 ### 🔹 Etapa 1: Criação do Banco de Dados e das Tabelas
+1. Abra o pgAdmin 4 e conecte-se ao servidor PostgreSQL.
 
-### 🔹 Etapa 2: Geração e Inserção de Dados Fictícios
+2. Crie um novo banco de dados, por exemplo abrigos_animais.
 
-#### 🛠️ Passo 1 – Script Python
+3. Clique com o botão direito em abrigos_animais → Query Tool.
+
+4. Abra no VSCode (ou editor de sua preferência) o arquivo criar_tabelas_abrigos.sql.
+
+5. Copie todo o conteúdo e cole no Query Tool.
+
+6. Execute (▶️) para criar as tabelas:
+
+- abrigo, voluntario, veterinario, doador, adotante
+
+- animal
+
+- associações N:M: trabalha_em, cuida
+
+- registros: doacao, adocao
+Execute os comandos para criar todas as tabelas necessárias, como:
+abrigo, voluntario, veterinario, doador, adotante, animal, além dos relacionamentos N:M trabalha_em e cuida, e das tabelas de registro doacao e adocao.
+
+ ### 🔹 Etapa 2: Geração e Inserção de Dados Fictícios
+🛠️ Passo 1 – Script Python
+1 . Abra o arquivo gerar_dados_fake_abrigos.py.
+2. Execute no seu ambiente Python.
+3. Copie os comandos INSERT INTO gerados e cole no Query Tool.
+4. Execute os comandos para popular as tabelas.
+
+📁 Passo 2 – Inserção via SQL
+
+1. Abra o arquivo alimentarTabelas.sql.
+2. Copie os comandos INSERT e execute no Query Tool do pgAdmin.
+
+### 🔹 Etapa 3: Validação dos Dados
+
+- Acesse o arquivo fazerValidacoes.sql.
+- Execute cada consulta individualmente no Query Tool para garantir a consistência e qualidade dos dados inseridos.
+  
+🔹 Etapa 4: Consultas Avançadas e Análises
+1. Acesse o arquivo consultasAvancadas.sql (ou outro arquivo onde essas queries foram organizadas).
+2.Execute cada consulta individualmente no Query Tool do pgAdmin para analisar os dados já inseridos.
+
+📌 Algumas validações realizadas:
 
 
 
@@ -39,6 +97,18 @@ A execução do projeto foi realizada em *quatro etapas principais, utilizando *
 
  📌 Algumas validações realizadas:
  
+
+### 🔹 Etapa 4: Consultas Avançadas e Análises
+
+
+
+📌 Consultas do enunciado:
+
+
+➕ 10 Queries adicionais de álgebra relacional:
+
+
+
 
 ### 🔹 Etapa 4: Consultas Avançadas e Análises
 
