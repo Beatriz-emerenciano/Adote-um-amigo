@@ -1,4 +1,4 @@
-# 🎓 Projeto de Banco de Dados para ....
+# 🎓 Projeto de Banco de Dados para um Abrigo
 
 ### 👥 Integrantes:
 - *Beatriz Cristina Emerenciano* — RA: 22.222.041-0  
