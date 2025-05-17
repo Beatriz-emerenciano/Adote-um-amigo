@@ -45,39 +45,42 @@ abrigo, voluntario, veterinario, doador, adotante, animal, além dos relacioname
 
  ### 🔹 Etapa 2: Geração e Inserção de Dados Fictícios
 🛠️ Passo 1 – Script Python
-1 . Abra o arquivo gerar_dados_fake_abrigos.py.
+1 . Abra o arquivo dados_ficticios.py.
 2. Execute no seu ambiente Python.
 3. Copie os comandos INSERT INTO gerados e cole no Query Tool.
 4. Execute os comandos para popular as tabelas.
 
-📁 Passo 2 – Inserção via SQL
+#### 📁 Passo 2 – Inserção via SQL
 
-1. Abra o arquivo alimentarTabelas.sql.
+1. Abra o arquivo tabelas.sql.
 2. Copie os comandos INSERT e execute no Query Tool do pgAdmin.
 
 ### 🔹 Etapa 3: Validação dos Dados
 
-- Acesse o arquivo fazerValidacoes.sql.
+- Acesse o arquivo validaçãodeconsistencia.sql.
 - Execute cada consulta individualmente no Query Tool para garantir a consistência e qualidade dos dados inseridos.
   
-🔹 Etapa 4: Consultas Avançadas e Análises
+### 🔹 Etapa 4: Consultas Avançadas e Análises
 1. Acesse o arquivo consultasAvancadas.sql (ou outro arquivo onde essas queries foram organizadas).
 2.Execute cada consulta individualmente no Query Tool do pgAdmin para analisar os dados já inseridos.
 
 📌 Algumas validações realizadas:
 
+- Animais adotados com nome do adotante e data da adoção
+
+- Total de animais atualmente em cada abrigo
+
+- Veterinários e quantidade de animais sob seus cuidados
+
+- Nome do animal, doador e condição na doação
+
+- Voluntários e os abrigos em que trabalham
 
 
 #### 📁 Passo 2 – Arquivo Pronto
 
 
-
-### 🔹 Etapa 3: Validação dos Dados
-
- 📌 Algumas validações realizadas:
- 
-
-### 🔹 Etapa 4: Consultas Avançadas e Análises
+### 🔹 Etapa 3: Consultas Avançadas e Análises
 
 
 
