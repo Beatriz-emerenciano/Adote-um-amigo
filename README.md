@@ -77,32 +77,6 @@ abrigo, voluntario, veterinario, doador, adotante, animal, além dos relacioname
 - Voluntários e os abrigos em que trabalham
 
 
-#### 📁 Passo 2 – Arquivo Pronto
-
-
-### 🔹 Etapa 3: Consultas Avançadas e Análises
-
-
-
-📌 Consultas do enunciado:
-
-
-➕ 10 Queries adicionais de álgebra relacional:
-
-
-
-
-### 🔹 Etapa 4: Consultas Avançadas e Análises
-
-
-
-📌 Consultas do enunciado:
-
-
-➕ 10 Queries adicionais de álgebra relacional:
-
-
-
 ## 🗂️ Modelagem de Dados (MER e MR)
 
 O projeto inclui a modelagem conceitual e relacional do sistema, com base nas seguintes entidades e relacionamentos:
