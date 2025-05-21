@@ -68,7 +68,7 @@ abrigo, voluntario, veterinario, doador, adotante, animal, além dos relacioname
 
 1. Acesse o arquivo consultasAvancadas.sql (ou outro arquivo onde essas queries foram organizadas).
 
-2.Execute cada consulta individualmente no Query Tool do pgAdmin para analisar os dados já inseridos.
+2. Execute cada consulta individualmente no Query Tool do pgAdmin para analisar os dados já inseridos.
 
 📌 Algumas validações realizadas:
 
