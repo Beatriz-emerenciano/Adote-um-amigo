@@ -23,7 +23,7 @@ Este projeto tem como objetivo implementar um sistema de banco de dados relacion
 ### 🔹 Etapa 1: Criação do Banco de Dados e das Tabelas
 1. Abra o pgAdmin 4 e conecte-se ao servidor PostgreSQL.
 
-2. Crie um novo banco de dados, por exemplo abrigos_animais.
+2. Crie um novo banco de dados, (ex: abrigos_animais).
 
 3. Clique com o botão direito em abrigos_animais → Query Tool.
 
