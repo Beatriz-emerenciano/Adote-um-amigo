@@ -46,7 +46,7 @@ abrigo, voluntario, veterinario, doador, adotante, animal, além dos relacioname
  ### 🔹 Etapa 2: Geração e Inserção de Dados Fictícios
  
 🛠️ Passo 1 – Script Python
-1 . Abra o arquivo dados_ficticios.py.
+1. Abra o arquivo dados_ficticios.py.
 
 2. Execute no seu ambiente Python.
    
