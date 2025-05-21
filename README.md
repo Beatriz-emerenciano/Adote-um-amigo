@@ -44,8 +44,8 @@ Execute os comandos para criar todas as tabelas necessárias, como:
 abrigo, voluntario, veterinario, doador, adotante, animal, além dos relacionamentos N:M trabalha_em e cuida, e das tabelas de registro doacao e adocao.
 
  ### 🔹 Etapa 2: Geração e Inserção de Dados Fictícios
+ 
 🛠️ Passo 1 – Script Python
-
 1 . Abra o arquivo dados_ficticios.py.
 
 2. Execute no seu ambiente Python.
